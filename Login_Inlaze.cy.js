@@ -1,4 +1,4 @@
-describe('template spec', () => {
+describe('Inicio', () => {
     beforeEach(() => {
       cy.visit('https://test-qa.inlaze.com/');
     });
