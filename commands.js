@@ -67,7 +67,7 @@ Cypress.Commands.add('Validar_Long_Contraseña_Usuario', (C_name, C_email, C_pas
 
 
 
-// Inicio de sesion -- Login
+// Comandos Inicio de sesion -- Login
 Cypress.Commands.add('IngresoUsuarioPrueba',(U_name, U_password)=>{
     cy.wait(2000)
     cy.get('#email').type(U_name);
