@@ -1,4 +1,4 @@
-describe('template spec', () => {
+describe('Inicio', () => {
   beforeEach(() => {
     cy.visit('https://test-qa.inlaze.com/');
                     //-- Campos para comandos de Login: name, email, password,confirmpassword -- // 
